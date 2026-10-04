@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <Folder Include="LearnEF.Application\DTOs\" />
+
+    <Folder Include="LearnEF.Application\Interfaces\" />
+
+    <Folder Include="LearnEF.Application\Services\" />
+
+    <Folder Include="LearnEF.Domain\Enums\" />
+
+    <Folder Include="LearnEF.Infrastructure\Migrations\" />
+
+    <Folder Include="LearnEF.Infrastructure\Persistence\Configurations\" />
+
+    <Folder Include="LearnEF.Tests\" />
+
+    <Folder Include="LearnEF.Web\Controllers\" />
+
+    <Folder Include="LearnEF.Web\Middleware\" />
+
+
+  </ItemGroup>
+
+</Project>
